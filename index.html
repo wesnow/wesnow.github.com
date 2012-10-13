@@ -1,1 +1,63 @@
-<h1>wesnow's note</h1>It works.
+﻿<!DOCTYPE html>
+<html class="index">
+<head>
+	<meta charset="utf-8" />
+	<title>清静无虞's Homepage</title>
+	<link rel="stylesheet" href="stylesheets/base.css" />
+	<link rel="stylesheet" href="style.css" />
+	<!--[if lt IE 9]>
+	<script type="text/javascript">
+    // html5shiv MIT @rem remysharp.com/html5-enabling-script
+    // iepp v1.6.2 MIT @jon_neal iecss.com/print-protector
+    /*@cc_on(function(a,b){function r(a){var b=-1;while(++b<f)a.createElement(e[b])}if(!(!window.attachEvent||!b.createStyleSheet||!function(){var a=document.createElement("div");a.innerHTML="<elem></elem>";return a.childNodes.length!==1}())){a.iepp=a.iepp||{};var c=a.iepp,d=c.html5elements||"abbr|article|aside|audio|canvas|datalist|details|figcaption|figure|footer|header|hgroup|mark|meter|nav|output|progress|section|summary|time|video",e=d.split("|"),f=e.length,g=new RegExp("(^|\\s)("+d+")","gi"),h=new RegExp("<(/*)("+d+")","gi"),i=/^\s*[\{\}]\s*$/,j=new RegExp("(^|[^\\n]*?\\s)("+d+")([^\\n]*)({[\\n\\w\\W]*?})","gi"),k=b.createDocumentFragment(),l=b.documentElement,m=l.firstChild,n=b.createElement("body"),o=b.createElement("style"),p=/print|all/,q;c.getCSS=function(a,b){if(a+""===undefined)return"";var d=-1,e=a.length,f,g=[];while(++d<e){f=a[d];if(f.disabled)continue;b=f.media||b,p.test(b)&&g.push(c.getCSS(f.imports,b),f.cssText),b="all"}return g.join("")},c.parseCSS=function(a){var b=[],c;while((c=j.exec(a))!=null)b.push(((i.exec(c[1])?"\n":c[1])+c[2]+c[3]).replace(g,"$1.iepp_$2")+c[4]);return b.join("\n")},c.writeHTML=function(){var a=-1;q=q||b.body;while(++a<f){var c=b.getElementsByTagName(e[a]),d=c.length,g=-1;while(++g<d)c[g].className.indexOf("iepp_")<0&&(c[g].className+=" iepp_"+e[a])}k.appendChild(q),l.appendChild(n),n.className=q.className,n.id=q.id,n.innerHTML=q.innerHTML.replace(h,"<$1font")},c._beforePrint=function(){o.styleSheet.cssText=c.parseCSS(c.getCSS(b.styleSheets,"all")),c.writeHTML()},c.restoreHTML=function(){n.innerHTML="",l.removeChild(n),l.appendChild(q)},c._afterPrint=function(){c.restoreHTML(),o.styleSheet.cssText=""},r(b),r(k);if(c.disablePP)return;m.insertBefore(o,m.firstChild),o.media="print",o.className="iepp-printshim",a.attachEvent("onbeforeprint",c._beforePrint),a.attachEvent("onafterprint",c._afterPrint)}})(this,document)@*/
+	</script>
+	<![endif]-->
+<style>
+table a{position:relative;}
+table a span{position:fixed;white-space:nowrap;}
+</style>
+</head>
+<body>
+
+<div class="container clearfix">
+    <div id="header" class="grid grid-20">
+        <div class="grid grid-4 first">
+            <h1 id="logo">清静无虞</h1>
+            <strong id="tagline">Homepage</strong>
+        </div>
+        <div class="grid grid-11 navi">
+            <a href="./index.html" id="index" class="current">HOME</a>
+        </div>
+        <div class="grid grid-5 last navi">Feedback：
+            <a href="http://www.weibo.com/qufadai">@去发呆</a>
+            <a href="http://www.qufadai.com">去发呆</a>
+        </div>
+    </div> <!-- #header -->
+    
+    <div id="main" class="grid grid-20">
+    
+        <p></p>
+    </div> <!-- grid-20 -->
+
+    <div class="grid grid-20">
+        <h3 class="typo-h3">一、Go</h3>
+	    <table class="document-table" id="plugin-table">
+	        <tr>
+	            <th><a href="#">Go template</a></th>
+	            <th><a href="#">Go 正则表达式</a></th>
+	            <th><a href="#">Go Web开发</a></th>
+	            <th>自定义template函数</th>
+	        </tr>
+	    </table>
+    </div> <!-- .grid-20 -->
+    
+    <div id="footer" class="grid grid-20">
+        <small>版权所有: www.qufadai.com</small>
+    </div>
+</div>
+
+<script type="text/javascript" src="./javascripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="./javascripts/plugins.js"></script>
+<script type="text/javascript" src="./instant.js"></script>
+</body>
+</html>
